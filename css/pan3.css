@@ -1,0 +1,28 @@
+.top.sender{
+  background: #fff;
+  justify-content: flex-start;
+}
+.top .txt {
+  color: #20c720;
+  margin: 4px 0;
+  text-align: center;
+}
+.top .inPan {
+  height: 40px;
+  align-items: stretch;
+  margin: 20px 0;
+}
+.top .inPan button{
+  padding: 10px;
+  border-radius: 0 20px 20px 0;
+  margin-left: 2px;
+}
+.top .inPan input{
+  border: 1px solid #1ecb1e;
+  border-radius: 20px 0 0 20px;
+  padding-left: 10px;
+  width: 200px;
+}
+.top .otherLnk button{
+  margin: 10px 0;
+}

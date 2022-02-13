@@ -1,0 +1,43 @@
+.loader {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  font-size: 2em;
+  color: #3f3f3f;
+  text-transform: capitalize;
+  overflow: hidden;
+  z-index: -1;
+}
+.loader .head{
+  visibility: hidden;
+}
+.loader.active .head{
+  visibility: visible;
+}
+.loader .kite{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #f00;
+  border-radius: 50%;
+   animation: upss 10s linear infinite; 
+}
+@keyframes upss {
+  0%{
+    transform: translateY(0px) scale(0);
+  }
+  10%{
+    transform: translateY(-20px) scale(1);
+  }
+  90%{
+    transform: translateY(-180px) scale(1);
+  }
+  100%{
+    transform: translateY(-200px) scale(0);
+  }
+}
+.loader .kite:nth-of-type(2n){
+  border: 2px solid #f00;
+  background: none;
+  border-radius: 0px;
+}

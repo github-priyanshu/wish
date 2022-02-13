@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta property="og:image" content="https://wish-me.netlify.app/img/3.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Makkar Sankranti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+  <div class="main">
+
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/pan1.css">
+    <div class="pan p1 active flex c" onclick="showPan(2)"></div>
+    <div class="loader active flex">
+      <div class="head flex"><div class="round"></div><span>Gift loading...</span></div>
+    </div>
+    <script src="js/loader.js"></script>
+    <img src="img/front.jpg" onload="imgLoaded()"class="fake"><img src="img/mini1.jpg" onload="imgLoaded()"class="fake"><img src="img/mini2.jpg" onload="imgLoaded()" class="fake">
+
+    <link rel="stylesheet" href="css/pan2.css">
+    <div class="pan flex c p2 texCen">
+      <div class="top flex c">
+        <div class="name" col="#ff4800" fw="bold" fs="2em"><i>Priyanshu</i></div>
+        <div class="txt" col="rgb(104, 0, 255)">की ओर से एक छोटा सा <span fw="bold" fs="1.1em">फिल्मों</span> का <span fw="bold" fs="1.1em">तोहफा</span></div>
+        <img src="" class="mwImg wish" alt="wish">
+      </div>
+      <div class="bottom flex c" onclick="window.open('https://ai-player.netlify.app?sh=16')">
+        <div class="txt" col="rgb(104, 0, 255)">Celebrate with<span fw="bold" fs="1.1em">New Movies</span></div>
+        <img src="" alt="" class="mwImg posters">
+      </div>
+      <div class="sendBox flex" onclick="loadPan3()">
+        <div class="inPan flex">
+          यहाँ आपका नाम
+        </div>
+        <div class="bheje flex"><span fs="1.2em" fw="bold">भेजें</span><img src="img/whatsapp.svg"></div>
+      </div>
+    </div>
+    <script src="js/pan2.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/pan3.css">
+    <div class="pan p3">
+      <div class="top flex c">
+      </div>
+    </div>
+    <script src="js/pan3.js"></script>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
